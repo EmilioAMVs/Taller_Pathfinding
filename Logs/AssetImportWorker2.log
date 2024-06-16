@@ -1,0 +1,487 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 15720 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Taller_Pathfinfing
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50354
+Successfully changed project path to: C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Taller_Pathfinfing
+C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Taller_Pathfinfing
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17152] Host "[IP] 192.168.221.1 [Port] 0 [Flags] 2 [Guid] 2651355372 [EditorId] 2651355372 [Version] 1048832 [Id] WindowsEditor(7,Emilio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17152] Host "[IP] 192.168.221.1 [Port] 0 [Flags] 2 [Guid] 2651355372 [EditorId] 2651355372 [Version] 1048832 [Id] WindowsEditor(7,Emilio) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 41.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emili/OneDrive/Desktop/UDLA/Semestre 6/Desarrollo de Videojuegos/Taller_Pathfinfing/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
+    Vendor:   ATI
+    VRAM:     7860 MB
+    Driver:   31.0.21910.1006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009865 seconds.
+- Loaded All Assemblies, in  0.494 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.308 seconds
+Domain Reload Profiling: 800ms
+	BeginReloadAssembly (201ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (160ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (309ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (246ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (169ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.932 seconds
+Refreshing native plugins compatible for Editor in 4.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 8731ms
+	BeginReloadAssembly (1880ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (5942ms)
+		LoadAssemblies (7269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (467ms)
+			TypeCache.Refresh (447ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (666ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.32 seconds
+Refreshing native plugins compatible for Editor in 4.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3107 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3568.
+Memory consumption went from 121.8 MB to 121.7 MB.
+Total: 5.006900 ms (FindLiveObjects: 0.705500 ms CreateObjectMapping: 0.333600 ms MarkObjects: 3.826200 ms  DeleteObjects: 0.138800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CarAI.cs: 52bfad4eef650275eb16d97bd5d72212 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/controllingCarAI.cs: 420480e50f705e1cbf1ca265886d0863 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SensorManager.cs: fc6a4b809bd3d745228cfc6979666008 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 80007.205479 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Models/Materials
+  artifactKey: Guid(08bfdf9681165c641b6781b8597945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Models/Materials using Guid(08bfdf9681165c641b6781b8597945e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ade27e1c2a00d5fe179b49fdb3ff3a') in 0.003322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.324573 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Prefabs
+  artifactKey: Guid(876932f87e5967c44a80f6b48a92ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Prefabs using Guid(876932f87e5967c44a80f6b48a92ff1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c1e49a556811b3b820fe864656c36e') in 0.000607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.483 seconds
+Refreshing native plugins compatible for Editor in 5.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.764 seconds
+Domain Reload Profiling: 2244ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (326ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1765ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (499ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3571.
+Memory consumption went from 122.4 MB to 122.4 MB.
+Total: 4.071200 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.185900 ms MarkObjects: 3.456300 ms  DeleteObjects: 0.135800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CarAI.cs: 52bfad4eef650275eb16d97bd5d72212 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/controllingCarAI.cs: 420480e50f705e1cbf1ca265886d0863 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SensorManager.cs: fc6a4b809bd3d745228cfc6979666008 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 203.817977 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayMenu.cs
+  artifactKey: Guid(b7e2a13729528414aa0d554aeee9ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayMenu.cs using Guid(b7e2a13729528414aa0d554aeee9ca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ce3af1d64efe5ba6c1ee448a4b38d6') in 0.001958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.467507 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayObjectEditor.cs
+  artifactKey: Guid(b8f4c31fed126ad49a5148385625fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayObjectEditor.cs using Guid(b8f4c31fed126ad49a5148385625fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b00a480fb0321150aefd4ed8a3be21') in 0.000661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.649487 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayNodeEditor.cs
+  artifactKey: Guid(f16c75996c49b0242af4c74840afae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Editor/GraphwayNodeEditor.cs using Guid(f16c75996c49b0242af4c74840afae84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93807e499bd70d45e3892619cb322a0') in 0.000599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 37.025223 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Scripts
+  artifactKey: Guid(1440e57f11de1f24d9a1c2bb3c38a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Scripts using Guid(1440e57f11de1f24d9a1c2bb3c38a707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e158d4ad83c4eafbdf7d112e9111ea9') in 0.000646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.452760 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Resources
+  artifactKey: Guid(90e6d2cc33e6980499f04f4d0dd43193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Resources using Guid(90e6d2cc33e6980499f04f4d0dd43193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8e4e6f1b2f39d9ef38d1f3f32d250c') in 0.000621 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.155173 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Resources/Prefabs
+  artifactKey: Guid(a088677afd4a72248a93318e3660fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Resources/Prefabs using Guid(a088677afd4a72248a93318e3660fec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '941ad3aa018c010966ce0a87919bb124') in 0.000623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.079213 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Resources/Prefabs/GraphwayNode.prefab
+  artifactKey: Guid(4a4c21e57c2b42e4a9556487b3595093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Resources/Prefabs/GraphwayNode.prefab using Guid(4a4c21e57c2b42e4a9556487b3595093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0b94749d5d2966f18b96e302aa99c7') in 0.161215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 6.376686 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Materials
+  artifactKey: Guid(fc5a813eb6133f042bf767dfb42911ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Materials using Guid(fc5a813eb6133f042bf767dfb42911ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2877d0c219d1c895435297aec104b565') in 0.000612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.206012 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Materials/Asphalt.mat
+  artifactKey: Guid(6743c1e31b8349b4185bc7e46d17751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Materials/Asphalt.mat using Guid(6743c1e31b8349b4185bc7e46d17751c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03229305ffdf57baf1a50b540032845c') in 0.202468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Materials/LamborginhiGlass.mat
+  artifactKey: Guid(4168ad1acb200a44bbe8fb7cc2238772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Materials/LamborginhiGlass.mat using Guid(4168ad1acb200a44bbe8fb7cc2238772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a85f8529ac6641c3ec467253af24f6a') in 0.027675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Materials/TrafficCone.mat
+  artifactKey: Guid(fef7854211ff898499424cac094a07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Materials/TrafficCone.mat using Guid(fef7854211ff898499424cac094a07fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f3c5964155a1c62d55636b8dcfc0666') in 0.030366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.655205 seconds.
+  path: Assets/ZenythStudios/Graphway/Assets/Materials/GraphwaySubNode.mat
+  artifactKey: Guid(c55b6c652b8dda44ba075b1f4b3b5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Assets/Materials/GraphwaySubNode.mat using Guid(c55b6c652b8dda44ba075b1f4b3b5325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9e05d905d89eb1773ddedc7031141ff') in 0.030194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.506 seconds
+Refreshing native plugins compatible for Editor in 5.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.379 seconds
+Domain Reload Profiling: 1882ms
+	BeginReloadAssembly (153ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (279ms)
+		LoadAssemblies (341ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1380ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (276ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3099 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3617.
+Memory consumption went from 129.2 MB to 129.2 MB.
+Total: 3.423900 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.100000 ms MarkObjects: 2.907000 ms  DeleteObjects: 0.117200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/CarAI.cs: 52bfad4eef650275eb16d97bd5d72212 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/controllingCarAI.cs: 420480e50f705e1cbf1ca265886d0863 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/SensorManager.cs: fc6a4b809bd3d745228cfc6979666008 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 589.475604 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Models/StreetLamp.fbm/AO_SPEC.tga
+  artifactKey: Guid(20ecd8577018c5a449bb218cf397f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Models/StreetLamp.fbm/AO_SPEC.tga using Guid(20ecd8577018c5a449bb218cf397f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e14accca92794ab6cd7808740cfa20') in 0.078156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Models/StreetLamp.fbm/defuse.tga
+  artifactKey: Guid(f174f7922bc596e4f8cb0b7271209260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Models/StreetLamp.fbm/defuse.tga using Guid(f174f7922bc596e4f8cb0b7271209260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d041de1a76635ccc2f16a65f079d8f') in 0.024776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.478802 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Models/Materials/Glass.mat
+  artifactKey: Guid(ee085e28ea442f640aa0e78a552f33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Models/Materials/Glass.mat using Guid(ee085e28ea442f640aa0e78a552f33c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd052936a96f8ca701ab3103d8ffe2ef') in 0.057070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Models/Materials/LamborginhiDiffuse.mat
+  artifactKey: Guid(87f493e30c5790141831191e757c32e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Models/Materials/LamborginhiDiffuse.mat using Guid(87f493e30c5790141831191e757c32e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '704722d75168f34a6318d18f2f84c84c') in 0.024606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.972862 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Prefabs/Grass.prefab
+  artifactKey: Guid(04c4e60f5d0fb06469f62f7d0c02a144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Prefabs/Grass.prefab using Guid(04c4e60f5d0fb06469f62f7d0c02a144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275fd6826eecdf20e37014b4d20e5a97') in 0.072491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ZenythStudios/Graphway/Demo/Prefabs/Scenery.prefab
+  artifactKey: Guid(51403584bc5ac2740a85b520662dec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZenythStudios/Graphway/Demo/Prefabs/Scenery.prefab using Guid(51403584bc5ac2740a85b520662dec8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe457182d8f5a566881c0e0bbe2a99d1') in 0.306051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 220
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
